@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Scheme 01 Continuous Linear Uplight Technical Diagram</title>
+  <desc id="desc">Continuous horizontal linear light located at the grille base, washing upward across vertical fins with DMX pixel control.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10161a"/>
+      <stop offset="1" stop-color="#050708"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#202b30" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#090d0f" stop-opacity=".9"/>
+    </linearGradient>
+    <linearGradient id="upwash" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#f2fbfb" stop-opacity=".72"/>
+      <stop offset=".52" stop-color="#dceced" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#dceced" stop-opacity=".03"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#dbe9ea" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#dfeff0"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <rect width="1200" height="760" fill="url(#grid)"/>
+  <text x="70" y="70" fill="#eef6f5" font-family="Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="300">SCHEME 01 / VERTICAL ORDER</text>
+  <text x="70" y="104" fill="#aebdc0" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" letter-spacing="5">BOTTOM CONTINUOUS LINEAR LIGHT / UPWARD GRILLE WASH / DMX PIXEL CONTROL</text>
+
+  <g transform="translate(85 145)">
+    <rect x="0" y="0" width="650" height="485" fill="#0b0f12" stroke="#dbe9ea" stroke-opacity=".18"/>
+    <g opacity=".58">
+      <rect x="0" y="0" width="650" height="97" fill="url(#glass)"/>
+      <rect x="0" y="97" width="650" height="97" fill="url(#glass)" opacity=".86"/>
+      <rect x="0" y="194" width="650" height="97" fill="url(#glass)" opacity=".74"/>
+      <rect x="0" y="291" width="650" height="97" fill="url(#glass)" opacity=".86"/>
+      <rect x="0" y="388" width="650" height="97" fill="url(#glass)" opacity=".74"/>
+    </g>
+    <g stroke="#dbe9ea" stroke-opacity=".16" stroke-width="1">
+      <path d="M0 97H650M0 194H650M0 291H650M0 388H650"/>
+    </g>
+    <g>
+      <rect x="60" y="-14" width="40" height="513" fill="#dbe9ea" fill-opacity=".36"/>
+      <rect x="158" y="-14" width="40" height="513" fill="#dbe9ea" fill-opacity=".36"/>
+      <rect x="256" y="-14" width="40" height="513" fill="#dbe9ea" fill-opacity=".36"/>
+      <rect x="354" y="-14" width="40" height="513" fill="#dbe9ea" fill-opacity=".36"/>
+      <rect x="452" y="-14" width="40" height="513" fill="#dbe9ea" fill-opacity=".36"/>
+      <rect x="550" y="-14" width="40" height="513" fill="#dbe9ea" fill-opacity=".36"/>
+    </g>
+    <g opacity=".64">
+      <rect x="44" y="96" width="76" height="366" fill="url(#upwash)"/>
+      <rect x="142" y="96" width="76" height="366" fill="url(#upwash)"/>
+      <rect x="240" y="96" width="76" height="366" fill="url(#upwash)"/>
+      <rect x="338" y="96" width="76" height="366" fill="url(#upwash)"/>
+      <rect x="436" y="96" width="76" height="366" fill="url(#upwash)"/>
+      <rect x="534" y="96" width="76" height="366" fill="url(#upwash)"/>
+    </g>
+    <g stroke="#eefafa" stroke-opacity=".58" marker-end="url(#arrow)">
+      <path d="M80 455V125"/>
+      <path d="M178 455V125"/>
+      <path d="M276 455V125"/>
+      <path d="M374 455V125"/>
+      <path d="M472 455V125"/>
+      <path d="M570 455V125"/>
+    </g>
+    <rect x="28" y="468" width="594" height="8" fill="#dfeff0" opacity=".28"/>
+    <g filter="url(#glow)">
+      <rect x="34" y="454" width="582" height="10" rx="2" fill="#eefafa" opacity=".92"/>
+      <rect x="34" y="463" width="582" height="6" rx="1" fill="#dfeff0" opacity=".48"/>
+    </g>
+    <g stroke="#0b0f12" stroke-opacity=".35" stroke-width="1">
+      <path d="M107 454V469M180 454V469M253 454V469M326 454V469M399 454V469M472 454V469M545 454V469"/>
+    </g>
+    <text x="0" y="530" fill="#aebdc0" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3">ELEVATION / CONTINUOUS HORIZONTAL LINEAR LIGHT AT GRILLE BASE</text>
+  </g>
+
+  <g transform="translate(800 150)">
+    <rect x="0" y="0" width="320" height="330" fill="#0b0f12" stroke="#dbe9ea" stroke-opacity=".18"/>
+    <rect x="70" y="0" width="60" height="330" fill="#dbe9ea" fill-opacity=".28"/>
+    <rect x="194" y="0" width="60" height="330" fill="#dbe9ea" fill-opacity=".18"/>
+    <path d="M96 296C112 218 126 150 106 78" fill="none" stroke="#dfeff0" stroke-opacity=".42" stroke-width="1.7" marker-end="url(#arrow)"/>
+    <path d="M224 296C208 218 194 150 214 78" fill="none" stroke="#dfeff0" stroke-opacity=".42" stroke-width="1.7" marker-end="url(#arrow)"/>
+    <path d="M160 292V88" stroke="#eefafa" stroke-width="1.4" stroke-opacity=".36" stroke-dasharray="7 8" marker-end="url(#arrow)"/>
+    <path d="M94 292H226" stroke="#eefafa" stroke-width="12" stroke-linecap="round" stroke-opacity=".8" filter="url(#glow)"/>
+    <rect x="84" y="300" width="152" height="12" fill="#dfeff0" opacity=".5"/>
+    <text x="18" y="318" fill="#aebdc0" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="2.4">SECTION / BOTTOM LINEAR UPLIGHT</text>
+  </g>
+
+  <g transform="translate(800 558)" font-family="Inter, Helvetica, Arial, sans-serif">
+    <rect x="0" y="-46" width="320" height="100" fill="#0b0f12" stroke="#dbe9ea" stroke-opacity=".18"/>
+    <text x="18" y="-16" fill="#eef6f5" font-size="15" letter-spacing="2">Indicative fixture note</text>
+    <text x="18" y="12" fill="#dfeff0" font-size="14">Bottom horizontal linear light, upward wash</text>
+    <text x="18" y="38" fill="#aebdc0" font-size="13">8 pixel/m control unit · DMX · 12W/m · 20×40° optic</text>
+  </g>
+
+  <text x="70" y="705" fill="#eef6f5" font-family="Inter, Helvetica, Arial, sans-serif" font-size="18" letter-spacing="4">RESTRAINT / PRECISION / LOW-GLARE / LAYERED VERTICAL ORDER</text>
+</svg>

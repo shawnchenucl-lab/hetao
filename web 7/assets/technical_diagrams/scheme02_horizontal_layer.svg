@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Scheme 02 Inter-fin Point Downlight Technical Diagram</title>
+  <desc id="desc">Small downlights placed between vertical grille fins, washing downward in controlled pools of light.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10161a"/>
+      <stop offset="1" stop-color="#050708"/>
+    </linearGradient>
+    <radialGradient id="cone" cx="50%" cy="0%" r="82%">
+      <stop offset="0" stop-color="#eefafa" stop-opacity=".52"/>
+      <stop offset=".5" stop-color="#dceced" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#dceced" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#dbe9ea" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#dfeff0"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <rect width="1200" height="760" fill="url(#grid)"/>
+  <text x="70" y="70" fill="#eef6f5" font-family="Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="300">SCHEME 02 / INTER-FIN POINT DOWNLIGHT</text>
+  <text x="70" y="104" fill="#aebdc0" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" letter-spacing="5">SMALL DOWNLIGHTS BETWEEN GRILLE FINS / CONTROLLED DOWNWARD POOLS</text>
+
+  <g transform="translate(100 145)">
+    <rect x="0" y="0" width="670" height="485" fill="#0b0f12" stroke="#dbe9ea" stroke-opacity=".18"/>
+    <g opacity=".56" stroke="#dbe9ea" stroke-opacity=".16">
+      <path d="M0 97H670M0 194H670M0 291H670M0 388H670"/>
+    </g>
+    <g>
+      <rect x="58" y="-12" width="42" height="509" fill="#dbe9ea" fill-opacity=".36"/>
+      <rect x="158" y="-12" width="42" height="509" fill="#dbe9ea" fill-opacity=".28"/>
+      <rect x="258" y="-12" width="42" height="509" fill="#dbe9ea" fill-opacity=".36"/>
+      <rect x="358" y="-12" width="42" height="509" fill="#dbe9ea" fill-opacity=".28"/>
+      <rect x="458" y="-12" width="42" height="509" fill="#dbe9ea" fill-opacity=".36"/>
+      <rect x="558" y="-12" width="42" height="509" fill="#dbe9ea" fill-opacity=".28"/>
+    </g>
+    <g filter="url(#glow)">
+      <circle cx="129" cy="76" r="8" fill="#eefafa"/>
+      <circle cx="229" cy="76" r="8" fill="#eefafa"/>
+      <circle cx="329" cy="76" r="8" fill="#eefafa"/>
+      <circle cx="429" cy="76" r="8" fill="#eefafa"/>
+      <circle cx="529" cy="76" r="8" fill="#eefafa"/>
+    </g>
+    <g opacity=".72">
+      <path d="M129 84 L82 270 Q129 302 176 270 Z" fill="url(#cone)"/>
+      <path d="M229 84 L182 270 Q229 302 276 270 Z" fill="url(#cone)"/>
+      <path d="M329 84 L282 270 Q329 302 376 270 Z" fill="url(#cone)"/>
+      <path d="M429 84 L382 270 Q429 302 476 270 Z" fill="url(#cone)"/>
+      <path d="M529 84 L482 270 Q529 302 576 270 Z" fill="url(#cone)"/>
+    </g>
+    <g stroke="#eefafa" stroke-width="1.6" stroke-opacity=".72" marker-end="url(#arrow)">
+      <path d="M129 92V218"/>
+      <path d="M329 92V218"/>
+      <path d="M529 92V218"/>
+    </g>
+    <g fill="#eefafa" opacity=".22">
+      <ellipse cx="129" cy="282" rx="58" ry="14"/>
+      <ellipse cx="229" cy="282" rx="58" ry="14"/>
+      <ellipse cx="329" cy="282" rx="58" ry="14"/>
+      <ellipse cx="429" cy="282" rx="58" ry="14"/>
+      <ellipse cx="529" cy="282" rx="58" ry="14"/>
+    </g>
+    <text x="0" y="530" fill="#aebdc0" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3">ELEVATION / SMALL DOWNLIGHTS LOCATED BETWEEN VERTICAL GRILLES</text>
+  </g>
+
+  <g transform="translate(830 158)">
+    <rect x="0" y="0" width="270" height="360" fill="#0b0f12" stroke="#dbe9ea" stroke-opacity=".18"/>
+    <rect x="54" y="0" width="58" height="360" fill="#dbe9ea" fill-opacity=".30"/>
+    <rect x="158" y="0" width="58" height="360" fill="#dbe9ea" fill-opacity=".20"/>
+    <circle cx="135" cy="72" r="10" fill="#eefafa" filter="url(#glow)"/>
+    <path d="M135 84 L82 286 Q135 322 188 286 Z" fill="url(#cone)" opacity=".78"/>
+    <path d="M135 88V246" stroke="#eefafa" stroke-width="2" stroke-opacity=".78" marker-end="url(#arrow)" filter="url(#glow)"/>
+    <rect x="112" y="50" width="46" height="18" rx="4" fill="#0a0e11" stroke="#dbe9ea" stroke-opacity=".34"/>
+    <text x="0" y="408" fill="#aebdc0" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3">SECTION / RECESSED MINI DOWNLIGHT</text>
+  </g>
+
+  <g transform="translate(830 575)" font-family="Inter, Helvetica, Arial, sans-serif">
+    <rect x="0" y="-48" width="270" height="96" fill="#0b0f12" stroke="#dbe9ea" stroke-opacity=".18"/>
+    <text x="18" y="-18" fill="#eef6f5" font-size="15" letter-spacing="2">Design intent</text>
+    <text x="18" y="10" fill="#dfeff0" font-size="14">Point sources read as ordered dots</text>
+    <text x="18" y="36" fill="#aebdc0" font-size="13">Downward light, shielded by grille depth</text>
+  </g>
+
+  <text x="70" y="705" fill="#eef6f5" font-family="Inter, Helvetica, Arial, sans-serif" font-size="18" letter-spacing="4">POINT RHYTHM / BETWEEN FINS / DOWNWARD WASH / LOW-GLARE CONTROL</text>
+</svg>
