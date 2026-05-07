@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Scheme 03 Inner Glow Gateway Technical Diagram</title>
+  <desc id="desc">Glazed lobby inner glow, canopy lighting, gateway frame and passenger guidance at base level.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10161a"/>
+      <stop offset="1" stop-color="#050708"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#edf8f8" stop-opacity=".58"/>
+      <stop offset=".5" stop-color="#dfeff0" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#dfeff0" stop-opacity=".04"/>
+    </linearGradient>
+    <radialGradient id="entryGlow" cx="50%" cy="70%" r="55%">
+      <stop offset="0" stop-color="#edf8f8" stop-opacity=".42"/>
+      <stop offset=".45" stop-color="#dfeff0" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#dfeff0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#dbe9ea" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#dfeff0"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <rect width="1200" height="760" fill="url(#grid)"/>
+  <text x="70" y="72" fill="#eef6f5" font-family="Inter, Helvetica, Arial, sans-serif" font-size="28" font-weight="300">SCHEME 03 / INNER GLOW + GATEWAY FRAME</text>
+  <text x="70" y="106" fill="#aebdc0" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" letter-spacing="5">GLAZED LOBBY + CANOPY + PASSENGER GUIDANCE</text>
+
+  <g transform="translate(120 150)">
+    <rect x="0" y="0" width="720" height="470" fill="#0b0f12" stroke="#dbe9ea" stroke-opacity=".18"/>
+    <g opacity=".34" stroke="#dbe9ea" stroke-opacity=".18">
+      <path d="M0 110H720M0 220H720M0 330H720"/>
+      <path d="M120 0V470M240 0V470M360 0V470M480 0V470M600 0V470"/>
+    </g>
+    <rect x="0" y="0" width="720" height="250" fill="#10171b" fill-opacity=".68"/>
+    <g opacity=".35">
+      <rect x="80" y="28" width="34" height="190" fill="#dbe9ea"/>
+      <rect x="198" y="28" width="34" height="190" fill="#dbe9ea"/>
+      <rect x="316" y="28" width="34" height="190" fill="#dbe9ea"/>
+      <rect x="434" y="28" width="34" height="190" fill="#dbe9ea"/>
+      <rect x="552" y="28" width="34" height="190" fill="#dbe9ea"/>
+    </g>
+    <rect x="72" y="250" width="576" height="162" fill="url(#inner)" filter="url(#glow)"/>
+    <rect x="72" y="250" width="576" height="162" fill="none" stroke="#edf8f8" stroke-opacity=".45"/>
+    <rect x="54" y="226" width="612" height="28" fill="#dbe9ea" fill-opacity=".36"/>
+    <rect x="98" y="245" width="524" height="5" fill="#edf8f8" opacity=".84" filter="url(#glow)"/>
+    <rect x="254" y="250" width="212" height="162" fill="url(#entryGlow)"/>
+    <rect x="282" y="284" width="156" height="128" fill="none" stroke="#edf8f8" stroke-opacity=".62" stroke-width="2"/>
+    <path d="M198 438 C260 408 316 398 360 398 C414 398 466 410 528 438" fill="none" stroke="#edf8f8" stroke-width="2" stroke-opacity=".62" marker-end="url(#arrow)" filter="url(#glow)"/>
+    <path d="M80 438 H640" stroke="#dbe9ea" stroke-opacity=".28"/>
+    <text x="0" y="515" fill="#aebdc0" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3">ELEVATION / PUBLIC ARRIVAL READABILITY AT BASE</text>
+  </g>
+
+  <g transform="translate(895 180)">
+    <rect x="0" y="0" width="210" height="390" fill="#0b0f12" stroke="#dbe9ea" stroke-opacity=".18"/>
+    <rect x="28" y="0" width="154" height="240" fill="#121a1f"/>
+    <rect x="28" y="240" width="154" height="118" fill="url(#inner)" filter="url(#glow)"/>
+    <rect x="14" y="225" width="182" height="16" fill="#dbe9ea" fill-opacity=".36"/>
+    <rect x="42" y="238" width="126" height="5" fill="#edf8f8" opacity=".84" filter="url(#glow)"/>
+    <path d="M105 358 V300" stroke="#edf8f8" stroke-width="2" stroke-opacity=".72" marker-end="url(#arrow)" filter="url(#glow)"/>
+    <text x="-8" y="432" fill="#aebdc0" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3">SECTION / INTERIOR GLOW READS OUTWARD</text>
+  </g>
+
+  <g font-family="Inter, Helvetica, Arial, sans-serif" font-size="14" fill="#dfeff0">
+    <path d="M860 392 L690 392" stroke="#dfeff0" stroke-opacity=".68" marker-end="url(#arrow)"/>
+    <text x="860" y="386">Lobby brightness defines the gateway</text>
+    <text x="860" y="412" fill="#aebdc0">Upper facade remains restrained</text>
+    <path d="M850 505 L662 565" stroke="#dfeff0" stroke-opacity=".68" marker-end="url(#arrow)"/>
+    <text x="860" y="510">Passenger flow guided by base light</text>
+    <text x="70" y="700" fill="#eef6f5" font-size="18" letter-spacing="4">EXTERIOR-READABLE ENTRY / CANOPY GLOW / HUMAN-SCALE GUIDANCE / OPERATING GATEWAY</text>
+  </g>
+</svg>
